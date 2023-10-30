@@ -36,3 +36,12 @@
   grid-template-rows: repeat(4, 50px);
   grid-gap: 5px;
   }
+
+ .button[data-key="8"]{
+grid-row: span 2;
+background: rgb(230, 156, 7);
+}
+.button[data-key="13"]{
+    grid-row: span 2;
+    background: rgb(237, 38, 71);
+}
